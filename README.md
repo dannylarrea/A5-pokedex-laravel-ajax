@@ -20,7 +20,7 @@
 
 **Para ver la vista del proyecto se ha de entrar al directorio `public`. ¡Recordad que la URL es case sensitive!**
 
-### Agregar AJAX al desarrollo
+### Se han de agregar las siguientes funciones AJAX al desarrollo
 
 1. **ajax.js**
    ```js
