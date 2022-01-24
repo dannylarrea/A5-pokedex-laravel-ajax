@@ -40,7 +40,7 @@ A partir del código asociado a este repositorio, clonarlo o descargarlo, se ha 
 
 *Para ver la vista del proyecto se ha de entrar al directorio `public`. ¡Recordad que la URL es case sensitive!*
 
-#### Se ha de agregar las siguientes funciones AJAX al desarrollo
+#### Se ha de implementar la lógica de las siguientes funciones AJAX dentro del desarrollo (la función `read()` ya está implementada)
 
 1. **ajax.js**
    ```js
