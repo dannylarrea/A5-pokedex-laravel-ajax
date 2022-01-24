@@ -9,6 +9,7 @@ A partir del código asociado a este repositorio, clonarlo o descargarlo, se ha 
   - función js: `addImage`
   - ruta: `updateImageRoute`
   - controlador: `updateImage`
+    La función `updateImage` del controlador ha de recoger la imagen y el id del pokemon (`numero_pokedex`), guardar la imagen en el servidor (`store('uploads','public');`) y guardar la ruta de la imagen en la base de datos (atributo `imagen`)
 
 - Agregar a favoritos
   - función js: `updateFav`
