@@ -1,6 +1,14 @@
 # A5 (javascript). Pokedex: Laravel + AJAX
 
-### Pasos para la descarga y prueba de la aplicación:
+**Explicación**
+
+A partir del código asociado a este repositorio, clonarlo o descargarlo, se ha de entener el funcionamiento de este (rutas, controladores, vista y función AJAX read()), e implementar dos lógicas mediante AJAX:
+
+- Registrar pokemon (subir imagen)
+- Agregar a favoritos
+
+
+#### Pasos para la descarga y prueba de la aplicación:
 
 1. clonar el repositorio
 
@@ -18,13 +26,13 @@
 
 5. finalmente, Laravel puede pedir que se ejecute el comando `php artisan key:generate` para generar una nueva variable de entorno APP_KEY
 
-**Para ver la vista del proyecto se ha de entrar al directorio `public`. ¡Recordad que la URL es case sensitive!**
+*Para ver la vista del proyecto se ha de entrar al directorio `public`. ¡Recordad que la URL es case sensitive!*
 
-### Se han de agregar las siguientes funciones AJAX al desarrollo
+#### Se ha de agregar las siguientes funciones AJAX al desarrollo
 
 1. **ajax.js**
    ```js
-   /* Actualiza el campo imagen de un pokemon en la base de datos */
+   /* Actualiza el campo imagen de un pokemon en la base de datos, esta acción "registra" al pokemon */
    function addImage() {
       // code...
    }
