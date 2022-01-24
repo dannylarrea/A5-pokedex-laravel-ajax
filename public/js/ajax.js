@@ -87,7 +87,7 @@ function updateFav(num, fav) {
     */
 }
 
-/* Actualiza el campo imagen de un pokemon en la base de datos */
+/* Actualiza el campo imagen de un pokemon en la base de datos, esta acción "registra" al pokemon */
 function addImage() {
     // code...
 }
