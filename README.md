@@ -5,7 +5,15 @@
 A partir del código asociado a este repositorio, clonarlo o descargarlo, se ha de entener el funcionamiento de este (rutas, controladores, vista y función AJAX read()), e implementar dos lógicas mediante AJAX:
 
 - Registrar pokemon (subir imagen)
+
+  - función js: `addImage`
+  - ruta: `updateImageRoute`
+  - controlador: `updateImage`
+
 - Agregar a favoritos
+  - función js: `updateFav`
+  - ruta: `updateFavRoute`
+  - controlador: `updateFav`
 
 
 #### Pasos para la descarga y prueba de la aplicación:
